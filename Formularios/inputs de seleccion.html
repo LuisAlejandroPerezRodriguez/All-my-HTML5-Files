@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs de selecciont</title>
+</head>
+<body>
+    <!--
+        radio -> Permite seleccionar una unica opcion de una lista de opciones relacionas.
+
+        checkbox -> Permite seleccionar varias opciones de una lista de opciones relacionadas.
+
+        select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones. Cada opcion ira dentro de una etiqueta <option> </option>
+
+        Si tenemos muchas opciones podemos ordenarlas por categorias a traves de la etiqueta <optgroup> con el atributo label para nombrar la caregoria.
+    -->
+    <h1> Elementos seleccionables</h1>
+    <form>
+        <h2>Cual es su genero</h2>
+        <label>
+            Masculino
+            <input type="radio" name="gender" checked value="masculino">
+        </label>
+        <label>
+            Femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>
+            Desconocido
+            <input type="radio" name="gender" value="desconocido">
+        </label>
+    </form>
+    
+</body>
+</html>

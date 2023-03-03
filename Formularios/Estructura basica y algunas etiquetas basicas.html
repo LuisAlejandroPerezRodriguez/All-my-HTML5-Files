@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estructura basica de un formulario</title>
+  </head>
+  <body>
+    <!--
+        La estructura basica de un formulario se compone de 4 elementos:
+
+        form -> Es la etiqueta que engloba nuestro formulario.
+
+        label -> Sirve para escribir el nombre del campo a rellenar.
+
+        Input -> Sirve para cear  un campo que permitira al usuario interactuar.
+
+        button -> Crea un boton que permitira enviar el formulario.
+
+        cuando se envia un formulario se recarga la pgina.
+
+        en el Label el atributo for  se le indica un id que lo que hara sera emparejar el label con su input correspondiente.
+    -->
+
+    <form>
+      <label>Nombre</label>
+      <input />
+      <button>Enviar formulario</button>
+    </form>
+
+    <form>
+      <label for="cedula">Cedula</label>
+      <input id="cedula" />
+      <button>Enviar</button>
+    </form>
+    <hr />
+    <!--
+    tipos de inputs mas comunes
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+-->
+    <form>
+      <input type="password" />
+      <button>Enviar</button>
+      <input type="date" />
+      <input type="datetime-local" />
+    </form>
+
+    <hr />
+    <!-- Inputs que podemos ver en el celular-->
+
+    <form>
+        <div>
+            <label>search</label>
+            <input type="search">
+        </div>
+        <div>
+            <label>tel</label>
+            <input type="tel">
+        </div>
+        <div>
+            <label>email</label>
+            <input type="email">
+        </div>
+        <div>
+            <label>passsword</label>
+            <input type="password">
+        </div>
+        <div>
+            <label>url</label>
+            <input type="url">
+        </div>
+
+        
+    </form>
+    <br>
+    <form>
+        <input type="color">
+        <input type="number">
+        <input type="range" step="5" min="0" max="20">
+
+    </form>
+  </body>
+</html>
